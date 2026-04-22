@@ -1,5 +1,11 @@
 FROM ubuntu:22.04
 
+LABEL org.opencontainers.image.source=https://github.com/jfecroftRSE/docker-testing
+LABEL org.opencontainers.image.title="docker-testing"
+LABEL org.opencontainers.image.description="Testing and development Docker image"
+LABEL org.opencontainers.image.licenses="MIT"
+
+
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/London
 
